@@ -3,6 +3,13 @@
 	"EngineAssociation": "4.26",
 	"Category": "",
 	"Description": "",
+	"Plugins": [
+		{
+			"Name": "BlueprintQuaternionLibrary",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ab4e79dc9fdd41f9a813906dc569c0e1"
+		}
+	],
 	"TargetPlatforms": [
 		"PS4",
 		"WindowsNoEditor"
