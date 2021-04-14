@@ -4,7 +4,8 @@ Simple Marble Sandbox
 ### Generelle Information
 ***
 Bei dem Spiel handelt es sich um einen virtuellen Sandbox Murmelbahn Bausimulator.  
-Anhand einer ausgewählten Anzahl von Blöcken können nach Belieben Murmelbahnen eigenhändig in einer Virtuellen Umgebung gebaut/erstellt werden.
+Anhand einer ausgewählten Anzahl von Blöcken können nach Belieben Murmelbahnen eigenhändig in einer virtuellen Umgebung gebaut/erstellt werden.  
+Im Anschluss können Murmeln auf diesen platziert und rollen gelassen werden.
 
 ## Hardware Anforderungen
 ***
