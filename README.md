@@ -1,16 +1,20 @@
 # marbleVR_fh
 
-Simple Marble Sandbox
+Simple Marble Sandbox in VR
 
-### Generelle Information
+TODO: Screenshots
+
+## Generelle Information
 
 ---
 
-Bei dem Spiel handelt es sich um einen virtuellen Sandbox Murmelbahn Bausimulator.  
-Anhand einer ausgewählten Anzahl von Blöcken können nach Belieben Murmelbahnen eigenhändig in einer virtuellen Umgebung gebaut/erstellt werden.  
-Anschließend können Murmeln auf diesen platziert und rollen gelassen werden.
+Bei diesem Projekt handelt es sich um eine physikbasierte Sandbox-Murmelbahn-Simulation. Der Spieler kann eigene Murmelbahnen aus einer Auswahl von Bausteinen erstellen und auf diesen eine oder mehrere Murmeln rollen lassen.
 
-## Hardware Anforderungen
+Das Ziel des Projekts war es, aus Entwicklersicht einen Einstieg in die Entwicklung von VRApplikationen und die dafür benötigte Soft- und Hardware zu bekommen. Dabei wurde ein bekanntes Spiel in die virtuelle Welt portiert, damit sich bei der Entwicklung auf die technische Umsetzung konzentriert und Gamedesign größtenteils ausgeklammert werden konnte. Der Fokus lag auf der Interaktion mit virtuellen Objekten in Form von Bausteinen, mit welchen komplexe Bahnen gebaut werden können. Außerdem ist ein Block vorhanden, welcher die Murmel in Abhängigkeit von der Rotation des Bocks in eine Richtung transportiert. Dieser dient dazu mit der Murmel an Höhe zu gewinnen, um längere oder wiederholte Durchläufe einer Bahn zu realisieren. Da die Unreal Engine 4 zur Entwicklung gewählt wurde, konnte das VR-Template als Ausgangspunkt für das Projekt genutzt werden. Dies hatte den Vorteil, dass einige Basisfunktionalitäten wie z.B. die virtuellen Hände oder die Fortbewegung mittels Teleportation und die damit zusammenhängende Logik bereits vollständig implementiert waren. Dadurch wurde ein schnellerer Einstieg in die Umsetzung des eigentlichen Projekts ermöglicht.
+
+In den Spielmenüs befinden sich die Zuweisungen der Buttons zu deren Aktionen.
+
+## Hardware Anforderungen (entommen aus Oculus Anforderungen)
 
 ---
 
@@ -29,11 +33,17 @@ Anschließend können Murmeln auf diesen platziert und rollen gelassen werden.
 
 - Windows 10
 - Oculus Software
-- Ausführbare Datei
+- Ausführbare Datei aus Release
 
-## Anleitung
 
----
+## Enwicklerkonfiguration
 
-Eine Tutorial findet sich im Hauptmenü des Spiels.  
-Dort ist die Zuweisung der Buttons zu deren Aktionen aufgelistet.
+| Komponenten   | Version       |
+| :------------- |-------------:|
+| PC-System     | Intel i7-9750H, 16GB RAM, RTX 2060 Mobile |
+| Betriebssystem | Windows 10 Education Version 2004 |
+| HMD           | Oculus Rift / Oculus Rift S |
+| HMD Software   | Oculus App Version 29.0.0.54.528 |
+| Modellierungssoftware | Autodesk Maya 2020.4 |
+| Engine | Unreal Engine 4 Version 4.26.1-15228867 |
+
